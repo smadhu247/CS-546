@@ -1,0 +1,16 @@
+{{#if searchTermError}}
+  <p class="error"> The input string is empty. Try again :( </p>
+{{/if}}
+
+{{#if showNotFound}}
+  <p class="show-not-found"> We're sorry, but no results were found for {{showTerm}}.</p>
+{{/if}}
+
+{{#if showByIdNotFound}}
+  <p class="error-not-found"> There was no show found using the supplied id </p>
+{{/if}}
+
+{{#if inputError}}
+  <p class="input-error"> Error with input supplied </p>
+{{/if}}
+

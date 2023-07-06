@@ -1,0 +1,15 @@
+
+<h1>Show Finder</h1>
+  <article>
+    <p> This is a cool website in which you can type a search word and 
+      get back up to 5 results of shows with that specific search word.
+      There are endless possibilities of what you can search for!
+    </p>
+    <form action="/searchshows" method="POST">
+      <label for="newpost">
+        Show Search Term
+        <input id="newpost" type="text" name="showSearchTerm" placeholder="Show Search Term" value="{{show.name}}"/>
+      </label>
+      <button type="submit">Submit</button>
+    </form>
+  </article>

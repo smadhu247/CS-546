@@ -1,0 +1,57 @@
+.is-prime {
+  color: #00E676;
+}
+
+.not-prime {
+  color: #FF3D00;
+}
+
+body {
+  background: #e6efe1;
+  font-family: Georgia;
+}
+
+h1{
+  color: rgb(11, 91, 58);
+}
+
+header {
+  border-bottom: 1px solid #afafaf;
+}
+
+footer {
+  border-bottom: 1px solid #afafaf;
+  font-size: small;
+}
+
+button {
+  background-color: #4CAF50;
+  border: 1px solid #ccc;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+input[type=number] {
+  width: 20%;
+  display: inline-block;
+  border: 1px solid #ccc;
+}
+
+p {
+  color: rgb(11, 91, 58);
+  font-weight: lighter;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+.error {
+  color:rgb(172, 23, 23);
+  font-weight: bold;
+}
